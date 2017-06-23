@@ -1,3 +1,10 @@
+# 3.0.0 (2017-06-23)
+
+  * Updated dependencies.
+  * Removed typescript.
+  * Updated javascript modules to use es6 arrow functions.
+  * Updated Command.prototype.execute to use Promise from svg2png
+
 # 2.0.0 (2016-05-28)
 
   * [Feature] Update to svg2png v3.0.0 (this introduces a slightly different API regarding the resizing options)
