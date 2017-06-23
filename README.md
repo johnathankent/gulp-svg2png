@@ -8,18 +8,18 @@
 First, install `gulp-svg2png` as a development dependency:
 
 ```shell
-npm install --save-dev gulp-svg2png
+yarn add gulp-svg2png
 ```
 
 Then, add it to your `gulpfile.js`:
 
 ```javascript
-var svg2png = require('gulp-svg2png');
+const svg2png = require('gulp-svg2png');
 
 gulp.task('svg2png', function () {
-    gulp.src('./specs/assets/**/*.svg')
-        .pipe(svg2png())
-        .pipe(gulp.dest('./build'));
+  gulp.src('./specs/assets/**/*.svg')
+    .pipe(svg2png())
+    .pipe(gulp.dest('./build'));
 });
 ```
 
@@ -41,10 +41,12 @@ Limit the amount of concurrent tasks processed at one time. (optional; default=n
 
 ## Development
 
-### TypeScript build
-
 ```sh
-npm run build
+# install
+yarn
+
+# test
+yarn test
 ```
 
 ## Changelog
@@ -53,4 +55,8 @@ See [HISTORY.md](https://github.com/akoenig/gulp-svg2png/blob/master/HISTORY.md)
 
 ## Author
 
-Copyright 2014-2016, [André König](http://andrekoenig.info) (andre.koenig@posteo.de)
+* [André König](http://andrekoenig.info) (andre.koenig@posteo.de) - [See License](LICENSE.md)
+
+## Contributors
+
+See: https://github.com/johnathankent/gulp-svg2png/graphs/contributors
