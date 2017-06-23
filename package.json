@@ -6,14 +6,15 @@
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
-		"test": "mocha ./specs/*.spec.js"
+		"build": "npm i && npm run test",
+		"test": "node_modules/.bin/mocha test/plugin.spec.js"
 	},
 	"engines": {
 		"node": "^7.0.0"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:akoenig/gulp-svg2png.git"
+		"url": "git@github.com:johnathankent/gulp-svg2png.git"
 	},
 	"keywords": [
 		"gulpplugin",
@@ -23,9 +24,9 @@
 		"svg2png"
 	],
 	"bugs": {
-		"url": "https://github.com/akoenig/gulp-svg2png/issues"
+		"url": "https://github.com/johnathankent/gulp-svg2png/issues"
 	},
-	"homepage": "https://github.com/akoenig/gulp-svg2png",
+	"homepage": "https://github.com/johnathankent/gulp-svg2png",
 	"dependencies": {
 		"gulp-util": "^3.0.7",
 		"map-stream": "^0.0.7",
