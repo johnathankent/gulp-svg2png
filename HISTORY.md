@@ -1,3 +1,7 @@
+# 3.0.2 (2017-06-23)
+
+  * fix Travis CI link, test file paths.
+
 # 3.0.0 (2017-06-23)
 
   * Updated dependencies.
