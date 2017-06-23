@@ -1,3 +1,7 @@
+# 3.0.3 (2017-06-23)
+
+  * [Bugfix] Merge error message fix. [#42](https://github.com/akoenig/gulp-svg2png/pull/42/commits/6c1fe160b83d47f666c856f81a615cbd6da6e98f)
+
 # 3.0.2 (2017-06-23)
 
   * fix Travis CI link, test file paths.
